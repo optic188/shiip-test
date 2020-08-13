@@ -1,4 +1,5 @@
 Task description:
+- feel free to paste your own github token in index.tsx file, const token, my own will be expired 
 - User can see the list of react repo's (by default it's react keyword) 
 - User has ability to search over react repo by repo name
 - Some test were written
