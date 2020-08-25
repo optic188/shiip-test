@@ -52,7 +52,6 @@ const convertTabledata = (arr:[IData])=> {
 
 // Table component
 const TableComponent:FC<IdataArg> = ({dataArg}:IdataArg)=> {
-    console.log(convertTabledata(dataArg))
     return (
         <>
             <Table columns={columns} dataSource={convertTabledata(dataArg)} />
